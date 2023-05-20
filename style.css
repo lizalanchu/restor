@@ -1,0 +1,645 @@
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  color: #1D1D1D;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}
+
+header{
+  width: 100%;
+  height: 72px;
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.warper {
+  width: 965.94px;
+  margin: 0 auto;
+}
+
+header .warper {
+  display: flex;
+ 
+}
+
+main{
+  margin: 40px auto;
+  width: 965.94px;
+}
+
+.menu {
+  margin-top: 56px;
+}
+
+.logo {
+  background: url('imges/logo.svg') no-repeat;
+  width: 121px;
+  height: 13px;
+  display: block;
+  margin-top: 30px;
+}
+
+.street {
+  width: 389px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 122px;
+
+}
+
+.asap {
+  display: flex;
+  width: 65px;
+  height: 40px;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  font-size: 16px;
+  color: #1D1D1D;
+}
+
+.to {
+  margin-top: 28px;
+  color: #626262;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.geopoint {
+  box-sizing: border-box;
+  display: flex;
+  width: 292px;
+  height: 40px;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  align-items: center;
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.imglocation{
+  margin-left: 12px;
+  margin-right: 12px;  
+  max-width: 100%;
+  height: auto;
+}
+
+
+.btns {
+  width: 176px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 92px;
+}
+
+.registr{
+  color: #FFFFFF;
+  display: flex;
+  width: 80px;
+  height: 40px;
+  background: #262626;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.signin {
+  display: flex;
+  width: 80px;
+  height: 40px;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: #1D1D1D;
+}
+
+.imgbasket { 
+  max-width: 100%;
+  height: auto;
+  margin-top: 14px;
+  margin-left: 27px;
+}
+
+.search {  
+  box-sizing: border-box;
+  display: flex;
+  width: 965px;
+  height: 48px;
+  align-items: center;
+  color: #626262;
+  font-size: 16px;
+}
+
+.imgsearch {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  margin-right: 8px;
+}
+
+.line {
+  margin:   0 auto;
+  width: 965.94px;
+  color: #757575;;
+}
+
+.MoscowR {
+  margin-top: 56px;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.cards {
+  width: 965.94px;
+}
+
+.infrest {
+  display: block;
+  height: 74px;
+  margin-top: 16px;
+}
+
+.restname{
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px 0px 4px 0px;
+}
+
+.foodname {
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+  margin:  0px 0px 4px 0px;
+}
+
+.time {
+  font-size: 13px;
+  line-height: 21px;
+  margin:  0px 0px 4px 0px;
+}
+
+.imgrestor{
+  width: 308px;
+  height: 256px;
+}
+
+.restor {
+  display: inline-block;
+  width: 318px;
+  height: 366px;
+  margin-top: 16px;
+}
+
+.rearor h3 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer{
+  background: #262626;
+  width: 100%;
+  height: 552px;
+  top: 1468px;
+}
+
+.footer {
+  margin: 0 auto;
+  padding-top: 56px;
+  width: 965.94px;
+  
+
+}
+
+.line1 {
+  margin-top: 40px;
+}
+
+
+.inform{
+  width: 965.94px;
+  height: 133px;
+  display: flex;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 32px;
+}
+
+
+.inf {
+  color: #FFFFFF;
+  margin-bottom: 23px;
+  display: block;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.s1 {
+  width: 227px;
+  height: 133px;
+}
+
+.language {
+  display: inline-flex;
+  align-items: center;
+  width: 227px;
+  height: 40px;
+  background: #3B3B3B;
+  border-radius: 2px;
+
+}
+
+.language select{
+  appearance: none;
+  -webkit-appearance: none;
+  margin-left: 16px;
+  background: transparent;
+  color: white;
+  border: none;
+  width: 157px;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.language::after {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 8px;
+  background-image: url('imges/if_icon-ios7-arrow-back_211686.svg');
+  background-size: cover;
+}
+
+.text {
+  margin-top: 33px;
+}
+
+.network{
+  margin-top: 17px;
+}
+
+
+.s2 {
+  width: 170px;
+  height: 133px;
+  margin-left: 97px;
+  margin-top: 7px;
+}
+
+.s3 {
+  width: 73px;
+  height: 133px;
+  margin-left: 154px;
+  margin-top: 7px;
+}
+
+.line2 {
+  margin-top: 48px;
+}
+
+.store {
+  display: flex;
+  width: 297px;
+  height: 40px;
+  justify-content: space-between;
+  margin: 40px auto 0 auto;
+}
+
+.line3 {
+  margin-top: 40px;
+}
+
+.inf2 {
+  display: flex;
+  justify-content: space-between;
+  width: 682px;
+  color: #FFFFFF;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.image-button {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  background-image: url("imges/btn-up.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: none;
+}
+
+
+@media (max-width: 768px) {
+
+  main{
+    width: 752px;
+  }
+  
+  .warper {
+    width: 752px;
+  }
+  
+  .logo {
+    background: url('imges/logo1.svg') no-repeat;
+  }
+
+  
+  .street {
+    width: 304px;
+    margin-left: 21px;
+    font-size: 13px;
+  }
+  
+  .asap {
+    display: flex;
+    width: 57px;
+    font-size: 13px;
+  }
+  
+  .to {
+    font-size: 13px;
+  }
+  
+  .geopoint {
+    width: 215px;
+    font-size: 13px;
+  }
+  
+  
+  .btns {
+    margin-left: 88px;
+  }
+  
+  
+  .search {  
+    width: 752px;
+  }
+  
+  
+  .line {
+    width: 752px;
+  }
+  
+
+  
+  .cards {
+    width: 752px;
+  }
+  
+  .imgrestor{
+    width: 368px;
+    height: 366px;
+  }
+  
+  .restor {
+    width: 368px;
+    height: 366px;
+    margin-top: 16px;
+    margin-right: 6px;
+  }
+  
+
+  footer{
+    top: 2200px;
+  }
+  
+  .footer {
+    width: 752px;
+  }
+ 
+  .inform{
+    width: 752px;
+    height: 124px;
+  }
+  
+
+  
+  .s1 {
+    width: 176px;
+  }
+  
+  .language {
+    width: 176px;
+  }
+  
+  .language select{
+    appearance: none;
+    -webkit-appearance: none;
+    margin-left: 16px;
+    background: transparent;
+    color: white;
+    border: none;
+    width: 115px;
+  }
+  
+  .s2 {
+
+    margin-left: 80px;
+  }
+  
+  .s3 {
+    margin-left: 86px;
+  }
+  
+
+   
+  .inf2 {
+    width: 543px;
+  }
+  
+
+}
+
+@media (max-width: 320px) {
+
+  main{
+    width: 308px;
+  }
+  
+  .warper {
+    width: 308px;
+  }
+  
+  .logo {
+    background: url('imges/logo2.svg') no-repeat;
+  }
+  
+  .street {
+    width: 308px;
+    position: absolute;
+    top: 197px;
+    margin-left: 0px;
+    font-size: 13px;
+    
+  }
+  
+  .asap {
+    width: 65px;
+    margin-top: 0px;
+    font-size: 13px;
+  }
+
+  .to {
+    display: none;
+  }
+  
+  .geopoint {
+    width: 227px;
+    margin-top: 0px;
+    font-size: 13px;
+  }
+  
+  
+  .btns {
+    margin-left: 45px;
+    width: 156px;
+  }
+
+  .registr{
+    width: 72px;
+    font-size: 11px;
+  }
+  
+  .signin {
+    width: 72px;
+    font-size: 11px;
+  }
+  
+  .imgbasket { 
+    display: none;
+  }
+  
+  .search {  
+    width: 308px;
+    font-size: 13px;
+  }
+
+  .menu {
+    margin-top: 125px;
+  }
+  
+  
+  .line {
+    width: 308px;
+  }
+  
+
+  
+  .cards {
+    width: 308px;
+    height: 1570px;
+    overflow: hidden;
+  }
+  
+  .imgrestor{
+    width: 308px;
+  }
+  
+  .restor {
+    width: 308px;
+    height: 356px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+  
+
+  footer{
+    top: 2200px;
+    height: 862px;
+  }
+  
+  .footer {
+    width: 308px;
+    
+  }
+ 
+  .inform{
+    width: 173px;
+    height: 420px;
+    display: block;
+  }
+  
+  
+  .s1 {
+    width: 173px;
+  }
+  
+  .language {
+    width: 173px;
+  }
+  
+  .language select{
+    appearance: none;
+    -webkit-appearance: none;
+    margin-left: 16px;
+    background: transparent;
+    color: white;
+    border: none;
+    width: 115px;
+    font-size: 13px;
+  }
+  
+  .s2 {
+    margin-top: 39px;
+    margin-left: 0;
+    height: 117px;
+  }
+  
+  .s3 {
+    margin-left: 0;
+  }
+
+  .line2 {
+    margin-top: 40px;
+  }
+  
+  .store {
+    width: 273px;
+    height: 40px;
+    justify-content: space-between;
+    margin: 24px auto 0 auto;
+  }
+  
+  .store img {
+    width: 124px;
+  }
+
+   
+  .inf2 {
+    font-size: 11px;
+    width: 150px;
+    display: block;
+  }
+  
+
+}
